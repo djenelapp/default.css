@@ -1,5 +1,5 @@
 /*========================
-     VERSION : 1.4.2
+     VERSION : 1.4.3
 ==========================*/
 HTML, BODY {
     font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -21,7 +21,6 @@ H1 {
     font-size: 16px
 }
 .ui-dialog.ui-widget-content .ui-dialog-titlebar {
-	width: 100%;
     color: #666;
     font-weight: bold
 }
@@ -1227,13 +1226,6 @@ select {
 .badgeMenuCount .badge {
     background-color: #088A29;
 }
-.menuRefreshCommandLink {
-    font-size: 14px !important;
-    color: #333;
-}
-.menuRefreshCommandLink .ui-commandlink {
-    color: #333;
-}
 /* Split Button */
 .splitButton {
     text-align: right;
@@ -1479,7 +1471,6 @@ span.ui-button-icon-left.ui-icon.ui-c.ui-icon-disk {
     padding: 4px 0 !important;
 }
 .ui-datatable thead th, .ui-datatable tfoot td {
-    text-align: center;
     background-image: none !important;
     border: 1px solid #cfcfcf !important;
 }
@@ -1807,7 +1798,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     padding: 7px 14px;
 }
 .circle-active {
-    background-color: rgb(255, 171, 42) !important;
     color: white !important;
 }
 .circle-back {
@@ -1846,7 +1836,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
 	width: 80px;
     margin: 0 auto
 }
-.circle-title-active {color: rgb(255, 171, 42) !important;}
 /* .lightboxPnlGrd i { */
 /* 	position: absolute; */
 /* 	top: 50%; */
@@ -1899,7 +1888,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
 }
 .warning-pnl {
     margin: 0;
-    background-color: #ffab2a;
     color: white;
     white-space: pre-wrap;
 }
@@ -1937,7 +1925,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
 }
 .lightboxPnlGrd .blankButton:hover {
     border: 1px solid #a0a0a0 !important;
-    background-color: #ffab2a !important;
     color: #fff !important;
     transition: 0.2s;
 }
@@ -1947,7 +1934,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
 }
 .lightboxPnlGrd .orangeButton {
     color: white;
-    background-color: #ffab2a !important;
 }
 .lightboxPnlGrd .btn-next:hover .btn-next2:hover {
     border: 2px solid #fff !important;
@@ -2011,7 +1997,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     background-color: rgba(255, 165, 0, 0.81);
 }
 .flatStyle .btn-orange:hover, .flatStyle .btn-orange:active {
-    background-color: rgb(255, 154, 0) ;
     transition: 0.7s;
 }
 .flatStyle .btn-grey {
@@ -2086,7 +2071,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     display: inline-block;
     float: right;
     margin: 0 20px;
-    border-radius: 50px;
     padding: 5px 30px;
     background-color: #999;
     color: white;
@@ -2099,15 +2083,7 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     margin: 0 20px;
     color: black;
     font-weight: bold;
-    border-radius: 50px!important;
-  	text-align:center;
     font-size: 1.2em !important;
-}
-.btn-ok-process-list {
-    color: white!important;
-    background-color: #ffab2a;
-    padding: 5px 15px;
-    border-radius: 50px;
 }
 .lightboxPnlGrd .btn-ko-process {
     padding: 5px 10px;
@@ -2129,7 +2105,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     transition: 0.7s;
 }
 .lightboxPnlGrd .btn-ok-process:hover {
-    background-color: rgb(255, 154, 0) !important;
     transition: 0.7s;
 }
 /* Separator */
@@ -2165,7 +2140,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
 /* Deprecated use circle-active */
 .lightboxPnlGrd .ui-wizard-step-title.ui-state-highlight {
     color: white;
-    background: rgb(255, 171, 42) none;
 }
 .lightboxPnlGrd .ui-helper-clearfix:after {
     display: none;
@@ -2190,10 +2164,7 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     -webkit-padding-start: inherit;
     height: 300px;
     background-color: #f5f5f5;
-    overflow: auto;
-    width:95%;
-	margin:0 auto!important;
-	display:block;
+    overflow: auto !important;
 }
 .lightboxPnlGrd .list-itemInvoice-custom li {
     display: table;
@@ -2201,17 +2172,8 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     padding: 17px 5px 10px;
     width: 98%;
     text-align: left;
-    border:0;
+    border: 1px solid #c0c0c0;
     background-color: #fcfcfc;
-}
-.reset-btn {
-	margin:5px!important
-}
-.btn-ko-process {
-	margin:5px!important
-}
-.btn-ok-process{
-	margin:5px!important
 }
 .lightboxPnlGrd .select-item-custom {
     border: 1px solid #b4b4b4;
@@ -2266,15 +2228,13 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
 }
 .lightboxPnlGrd .drag-drop-custom {
 	border: 1px solid #b4b4b4;
+    margin: 5px 0;
     height:300px;
     background-size: auto;
     background: #f5f5f5 url("#{resource['template/generix/images/cloud.png']}") no-repeat center bottom 35px;
     color: #b4b4b4;
 	text-align: left;
-    width:95%;
-	margin:0 auto;
-	display:block;
-	overflow:hidden;
+    overflow: auto;
 }
 .lightboxPnlGrd .ui-widget-content {
 	padding-left:0!important;
@@ -2334,7 +2294,6 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     outline-color: white;
 }
 .lightboxPnlGrd .underline-button-active, .lightboxPnlGrd .underline-button:hover {
-    border-bottom: 2px solid rgb(255, 171, 42);
     outline-color: white;
 }
 .lightboxPnlGrd .underline-list .ui-widget-header {
@@ -2380,20 +2339,12 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     font-size: 16px !important;
 }
 .lightBoxPnlGrdFooter {
-	width:95%;
-	margin:0 auto;
-	margin-bottom:10px;
-	display:block;
-	overflow:hidden;
-	padding-top: 5px;
-    padding-bottom: 5px;
     background-color: #fcfcfc;
     border: 1px solid #c5c5c5;
-  /*  padding-top: 15px;
-    padding-bottom: 50px;*/
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 .lightBoxPnlGrdFooterLeft {
-    background-color: #ffab2a;
     padding-top: 65px;
     padding-bottom: 15px;
 }
@@ -2464,7 +2415,7 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     background-color: #d9534f !important;
 }
 /*
-!* Permet de faire tenir les listes sur une largeur d'écran *!
+!* Permet de faire tenir les listes sur une largeur d'cran *!
 .ui-datatable-resizable thead th,
 .ui-datatable-resizable tbody td,
 .ui-datatable-resizable tfoot td {
@@ -2547,22 +2498,18 @@ h3.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all a {
     text-transform: uppercase;
 }
 .picto-import-pdf {
-    background: url("#{resource['template/generixgis/images/picto-import-pdf.png']}");
-    width: 70px!important;
-    height: 63px!important;
-    left: 50%!important;
-    margin-left: -25px!important;
-    position: relative!important;
-    float: none!important;
+    background: url("#{resource['template/generix/images/picto-import-pdf.png']}");
+    width: 70px;
+    height: 63px;
+    float: right;
+    margin: -10px 0;
 }
-picto-cursor {
-    background: url("#{resource['template/generixgis/images/picto-cursor.png']}");
-    width: 70px!important;
-    height: 63px!important;
-    position: relative!important;
-    left: 50%!important;
-    float: none!important;
-    margin-left: -35px!important;
+.picto-cursor {
+    background: url("#{resource['template/generix/images/picto-cursor.png']}");
+    width: 70px;
+    height: 63px;
+    float: right;
+    margin: -10px 0;
 }
 .wdg {
     height: 170px;
@@ -2769,8 +2716,7 @@ picto-cursor {
     transition: 0.7s;
 }
 .blc-auchan {
-    padding: 70px 0 !important;
-    margin: 20px auto !important;
+    padding: 70px 140px;
 }
 .clt-auchan {
     height: 100%;
@@ -2780,22 +2726,10 @@ picto-cursor {
 }
 .blc-carrefour {
     padding: 46px 0 !important;
-    margin: 20px auto !important;
-}
-.blc-carrefour-belgium {
-    padding: 36px 0 !important;
-    margin: 20px auto !important;
 }
 .clt-carrefour {
     height: 100%;
     background: url("#{resource['template/generix/images/icon-carrefour-blanc.png']}") no-repeat;
-    margin: 0 auto;
-    width: 139px;
-}
-.clt-carrefour-belgium {
-    height: 100%;
-    background-image: url("#{resource['template/generixgis/images/icon-carrefour-belgium-blanc.png']}");
-    background-repeat: no-repeat;
     margin: 0 auto;
     width: 139px;
 }
@@ -2806,22 +2740,13 @@ picto-cursor {
     width: 234px;
 }
 .blc-casino {
-    padding: 70px 0 !important;
-    margin: 20px auto !important;
+    padding: 69px 0;
 }
 .clt-casino {
     height: 100%;
     background: url("#{resource['template/generix/images/icon-casino-blanc.png']}") no-repeat;
     margin: 0 auto;
     width: 205px;
-}
-.clt-safran {
-    height: 100%;
-    background-image: url("#{resource['template/generixgis/images/icon-safran-blanc.png']}");
-  	margin-top: 74px!important;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    width: 234px;
 }
 .blc-noactif {
     height: 200px;
@@ -2850,9 +2775,6 @@ picto-cursor {
     position: absolute;
     bottom: 0.8em;
     right: 40em;
-    top: 20px;
-    left: 50%;
-    margin-left: -70px;
 }
 .ui-panel-content .ui-fileupload-buttonbar button {
     display: none;
@@ -2883,7 +2805,6 @@ picto-cursor {
 }
 .doc-counter-container .ui-widget .ui-widget .txt-compteur {
 	font-size: 2.3em!important;
-	text-align: center;
 }
 .doc-counter-container .ui-widget .ui-widget .val-compteur {
 	font-size: 2.7em!important;
@@ -2968,7 +2889,6 @@ div[id$="openDialogButtonId_dlg"] div{
 table.ui-fileupload-files {
     background-color: #e6e6e6;
     margin-left: 0!important;
-    margin-top: 60px!important;
 }
 /*=================
 ==== ADD 1.4 ======
@@ -2988,15 +2908,6 @@ table.ui-fileupload-files {
     left: 0;
     z-index: 1000!important;
 }
-.picto-cursor {
-    background: url("#{resource['template/generixgis/images/picto-cursor.png']}");
-    width: 70px!important;
-    height: 63px!important;
-    position: relative!important;
-    left: 50%!important;
-    float: none!important;
-    margin-left: -35px!important;
-}
 .psMenuActionsPtMsg {
     padding: 10px !important;
 }
@@ -3012,12 +2923,6 @@ span.document-description {
 }
 .step-block span.bold-label {
     font-size: 2.5em;
-}
-span.bold-label {
-    font-size: 2em!important;
-}
-span.bold-label:last-child {
-    font-size: 1.2em!important;
 }
 /*MODIFICATIONS ROQUETTE*/
 thead#tskForm-contractView-resultTable_head tr th {
@@ -3094,75 +2999,6 @@ ul.multiselect-container.dropdown-menu {
     margin: 0;
     padding: 0;
 }
-/*=================
-===VERSION 1.4.1===
-=================*/
-.btn-responsive {
-    margin: 10px !important;
-}
-.dialog-header {
-    background-color: #fff!important;
-}
-#dialog {
-    padding: .5em 1.2em;
-}
-.btn-history {
-    float: left;
-}
-.btn-ko-process {
-    float: left;
-}
-.btn-ok-process{ float: left;}
-.btn-cancel{
-	float:right;
-}
-.btn-finish{
-	float:right;
-	padding: 5px 10px;
-}
-@media only screen and (max-width: 1080px) {
-   td.ui-panelgrid-cell.col-md-4.bg-company {
-    width: 32%;
-}
-.ellipsis-list{width:180px}
-  .ui-button-text-only .ui-button-text {
-    padding: 0.3em 0.4em !important;
-}
-  .lightboxPnlGrd .btn-ko-process {
-    padding: 5px 0;
-    border: none;
-    background-color: #999;
-    color: white;
-    font-weight: bold;
-    transition: 0.7s;
-}
-.reset-btn {
-    padding: 7px 0 !important;
-    margin:12px;
-}
-.btn-history {
-    width: 100%;
-}
-.btn-ko-process {
-    width: 45%;
-    left: 16px;
-}
-.btn-ok-process{
-    width: 45%!important;
-    float: right;
-}
-.btn-cancel{
-	width: 45%;
-	float:left;
-}
-.btn-finish{
-	width: 45%;
-
-}
-}
-.btn-responsive {
-    margin: 10px!important;
-}
 .fileUploadContainer .fileUploadButtons {
 	vertical-align: top;
 }
@@ -3220,4 +3056,10 @@ TH.idx-column {
 .idx-col-enum { width: 120px;}
 .idx-col-any { width: 150px;}
 #dialog {padding: .5em 1.2em;}
-.actions-column > .ui-button {height: 100%; }
+.progressDialog {
+	top: 162px !important;
+}
+.actions-column {
+	height:100%;
+    width: 40px!important;
+}
